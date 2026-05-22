@@ -2,9 +2,11 @@ package miPrincipal;
 
 import logica.Fecha;
 
-public class Registro<T> {
+//La clase debe ser genérica
+public class Registro {
     
-    private T[] elementos;
+    //crea un arreglo tipo T de nombre elementos
+    
     private String nombre;
     private Fecha fechaCreacion;
     private int cantidad;
